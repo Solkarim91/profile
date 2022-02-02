@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin&family=Nunito&display=swap');
+
+body {
+  background-color: #E6EBE0;
+  font-family: 'Cabin', sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 17px;
+  line-height: 30px;
+}
+
+h1 {
+  color: rgb(151, 24, 24);
+}
+
+h2 {
+  font-size: 20px;
+  color: rgb(151, 24, 24);
+}
+
+#link {
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  text-decoration: none;
+  color:white;
+  text-align: center;
+  background-color: rgba(253,16,21,1.0);
+  padding: 12px 10px;
+  border-radius: 5px;
+}
+
+#link:hover {
+  text-decoration: none;
+  color:rgba(253,16,21,1.0);
+  background-color: rgba(255, 255, 255, 0.767);
+  border-width: 3px;
+  border-color: rgba(253,16,21,1.0);
+  border-style: solid;
+}
+
+.thumbnail {
+  color: rgb(151, 24, 24);
+  text-align: left;
+}
+
+.thumbnail:hover {
+  color: rgb(150, 130, 130)
+}
+
+p {
+  text-align: justify, center;
+  margin-bottom: 35px;
+}
+
+.list_inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.card {
+  background-color: whitesmoke;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.253);
+  border-radius: 8px;
+  padding: 15px 25px 25px 25px;
+  margin: 30px 18% 30px 18%;
+  border-width: 3px;
+  border-color: rgba(206, 206, 206, 0.466);
+  border-style: solid;
+  text-align: center;
+}
+
+#img-circle {
+  border-radius: 50px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 50px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
