@@ -38,12 +38,20 @@ h2 {
   border-style: solid;
 }
 
-.thumbnail {
-  color: rgb(151, 24, 24);
+.thumbnail-git {
+  color: #161414;
+}
+
+.thumbnail-fb {
+  color: #38529A;
+}
+
+.thumbnail-insta {
+  color: #B43189;
   text-align: left;
 }
 
-.thumbnail:hover {
+.thumbnail-git:hover, .thumbnail-fb:hover, .thumbnail-insta:hover {
   color: rgb(150, 130, 130)
 }
 
@@ -57,7 +65,7 @@ p {
   padding-left: 0px;
 }
 
-.card {
+.section {
   background-color: whitesmoke;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.253);
   border-radius: 8px;
@@ -71,6 +79,7 @@ p {
 
 #img-circle {
   border-radius: 50px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .list-inline > li {
@@ -82,4 +91,43 @@ p {
 .list-inline {
   list-style: none;
   padding-left: 0px;
+}
+
+html, body {
+  margin: 0px;
+}
+
+@media(max-width: 992px) {
+  .section {
+    margin: 30px 10%;
+  }
+}
+
+@media(max-width: 768px) {
+  .section {
+    margin: 30px 5%;
+  }
+}
+
+.flexbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+}
+
+.card {
+  width: 300px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+.card img {
+  border-radius: 30px;
+  width:  225px;
+  height: 225px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
 }
